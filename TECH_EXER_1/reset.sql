@@ -1,0 +1,2 @@
+TRUNCATE menu_item;
+INSERT INTO menu_item (id, label, link, parent_id, position_in_level) VALUES ('1', 'About us', '#', '0', '0'), ('2', 'What we do', '#', '0', '1'), ('3', 'Products', 'products.php', '2', '0'), ('4', 'Services', 'services.php', '2', '1'), ('5', 'The company', 'company.php', '1', '0'), ('6', 'Who we are', 'who_we_are.php', '1', '1'), ('7', 'Product 1', 'product.php?id=7', '3', '0'), ('8', 'Product 2', 'product.php?id=8', '3', '1'), ('9', 'Product 3', 'product.php?id=9', '3', '2'), ('10', 'Service 1', 'service.php?id=10', '4', '0');
